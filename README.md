@@ -1,43 +1,53 @@
-# creating-source-plugin-tutorial (WIP)
+# your-source-plugin-name
 
-Companion project for the "Creating a Source Plugin" Gatsby tutorial.
+## Description
 
-## Prerequisites
+Include a summary of what this plugin accomplishes. Is there a demo site that shows how this plugin operates? If so, include a link to the deployed demo site and/or its source code here.
 
-You'll need to have these tools installed:
+Themes are considered plugins in the Gatsby ecosystem and should follow this README as well. Note that themes include multiple READMEs. One inside the theme directory with configuration instructions, one inside the example project directory, and one in the root of the repository which will follow this guide.
 
-- Node.js (v18 or newer)
-- Git
-- Yarn
+### Dependencies (optional)
 
-You can also follow [Part 0: Set Up Your Development Environment](https://www.gatsbyjs.com/docs/tutorial/part-0/) for more detailed instructions.
+Are there any plugins that must be installed in order to make this plugin work? If so, please include a list of those plugins and links to their pages here.
 
-## Usage
+### Learning Resources (optional)
 
-1. Clone this project
-1. `yarn` to install dependencies
-1. `yarn test` to run unit tests
-1. `yarn lint:fix` to run linting
+If there are other tutorials, docs, and learning resources that are necessary or helpful to someone using this plugin, please link to those here.
 
-### Development
+## How to install
 
-1. `yarn develop:deps` to build & serve the API at http://localhost:4000, and to also watch the source plugin for changes
-1. `yarn develop:site` in another terminal window to run `gatsby develop` for the test site
+Please include installation instructions here.
 
-If you make changes to the source plugin you will need to restart the `site` server to see the changes reflected in the site.
+Gatsby documentation uses `npm` for installation. This is the recommended approach for plugins as well.
 
-### Build
+If the plugin is a theme that needs to use `yarn`, please point to [the documentation for switching package managers](/docs/reference/gatsby-cli/#how-to-change-your-default-package-manager-for-your-next-project) in addition to the `yarn`-based instructions.
 
-1. `yarn start:api` to build and serve the API at http://localhost:4000
-1. `yarn build` in another terminal window to build the production plugin and site
-1. `yarn serve:site` to serve the Gatsby site at http://localhost:9000. You should see an overview of all posts
+## Available options (if any)
 
-## Project structure
+## When do I use this plugin?
 
-This project includes three directories:
+Include stories about when this plugin is helpful and/or necessary.
 
-- `api` is the example mock backend API you will source from
-- `plugin` is the example source plugin
-- `site` is the example site
+## Examples of usage
 
-The source plugin consumes the API, and the site uses the source plugin.
+This usually shows a code example showing how to include this plugin in a site's `config.js` file.
+
+    code example
+
+See this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code) on how to format code examples.
+
+This section could also include before-and-after examples of data when the plugin is enabled, if applicable.
+
+## How to query for data (source plugins only)
+
+If this is a source plugin README, source plugins ought to allow people to query for data within their Gatsby site. Please include code examples to show how to query for data using your source plugin.
+
+If this is a theme that requires data in a specific format in order to match an existing query, include those examples here.
+
+## How to run tests
+
+## How to develop locally
+
+## How to contribute
+
+If you have unanswered questions, would like help with enhancing or debugging the plugin, it is nice to include instructions for people who want to contribute to your plugin.
