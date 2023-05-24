@@ -1,6 +1,6 @@
 # creating-source-plugin-tutorial
 
-Companion project for the "Creating a Source Plugin" Gatsby tutorial.
+Companion project for the [Creating a Source Plugin](https://www.gatsbyjs.com/docs/tutorial/creating-a-source-plugin/) Gatsby tutorial.
 
 ## Prerequisites
 
